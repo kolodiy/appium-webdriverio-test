@@ -1,0 +1,23 @@
+{
+  "name": "wdio-appium-olx-test",
+  "version": "1.0.0",
+  "description": "WebdriverIO Appium test",
+  "main": "index.js",
+  "scripts": {
+    "appium": "./node_modules/.bin/wdio wdio.appium.conf.js --port 4723"
+  },
+  "author": "Roman Kolodiy",
+  "dependencies": {
+    "appium": "^1.7.2",
+    "webdriverio": "^4.12.0"
+  },
+  "devDependencies": {
+    "chai": "latest",
+    "lodash": "latest",
+    "wdio-appium-service": "^0.2.3",
+    "wdio-chromedriver-service": "^0.1.2",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "^0.1.4"
+  }
+}
